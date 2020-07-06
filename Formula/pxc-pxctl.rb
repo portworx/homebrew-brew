@@ -1,8 +1,8 @@
 class PxcPxctl < Formula
   desc "Portworx pxc component which adds support for pxctl commands"
   homepage "https://github.com/portworx/pxc"
-  url "https://github.com/portworx/pxc/archive/v0.28.0.tar.gz"
-  sha256 "f3bf2d058a507fd0d64e41aea85ca6cdba994a4725ca1538976b3efef2ee641a"
+  url "https://github.com/portworx/pxc/archive/v0.29.0.tar.gz"
+  sha256 "b0013d400ebfb49b3b651a185a44247a7650284128513e791e2cce2e0b1fbd9f"
   license "Apache-2.0"
   head "https://github.com/portworx/pxc.git"
 
@@ -10,6 +10,19 @@ class PxcPxctl < Formula
 
   def install
     bin.install "component/pxctl/pxc-pxctl"
+  end
+
+  def caveats
+    <<~EOS
+      Portworx pxc pxctl component installed. Example:
+
+          kubectl pxc pxctl status
+
+      See all your pxc components using:
+
+          kubectl pxc component list
+
+    EOS
   end
 
   test do
