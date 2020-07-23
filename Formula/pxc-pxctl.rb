@@ -1,8 +1,8 @@
 class PxcPxctl < Formula
   desc "Portworx pxc component which adds support for pxctl commands"
   homepage "https://github.com/portworx/pxc"
-  url "https://github.com/portworx/pxc/archive/v0.29.0.tar.gz"
-  sha256 "b0013d400ebfb49b3b651a185a44247a7650284128513e791e2cce2e0b1fbd9f"
+  url "https://github.com/portworx/pxc/archive/v0.30.0.tar.gz"
+  sha256 "f722188bea6a780e854e564f06a94efe285252896a8b10b4ba9894c310e7c8c7"
   license "Apache-2.0"
   head "https://github.com/portworx/pxc.git"
 
