@@ -1,8 +1,8 @@
 class PxcCm < Formula
   desc "Portworx Cluster Manager Example Compoment"
   homepage "https://github.com/portworx/pxc/tree/master/component/examples/golang"
-  url "https://github.com/portworx/pxc/archive/v0.31.0.tar.gz"
-  sha256 "33b9c07eefbd2a753d9430a92560b0446838de9b8d2ccd35ca234acc0b98daaf"
+  url "https://github.com/portworx/pxc/archive/v0.31.1.tar.gz"
+  sha256 "a25ef8825f3e141330e9b03aae0dd117e692969ad0ff8e9d564806b157b1077b"
   license "Apache-2.0"
   head "https://github.com/portworx/pxc.git"
 
