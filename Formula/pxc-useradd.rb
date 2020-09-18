@@ -6,7 +6,7 @@ class PxcUseradd < Formula
   license "Apache-2.0"
   head "https://github.com/portworx/pxc.git"
 
-  depends_on "go" => :build
+  depends_on "portworx/brew/pxc"
 
   def install
     bin.install "component/useradd/pxc-useradd"
