@@ -12,6 +12,8 @@ class PxcPds < Formula
   def install
     bin.install Dir["usr/local/bin/*"]
     pkgshare.install Dir["usr/local/share/pxc-pds/*"]
+    pkgshare.install "VERSION"
+    pkgshare.install "README.txt"
   end
 
   def caveats
