@@ -1,8 +1,8 @@
 class PxcPds < Formula
   desc "Portworx pxc component for Portworx Data Services (PDS)"
   homepage "https://github.com/portworx/pxc-pds"
-  url "https://github.com/portworx/homebrew-brew/releases/download/0.0.1/pxc-pds-v0.0.3-4-g23337e4.tar.gz"
-  sha256 "ca6147c83877a7aec40ceedbb87c8241c3da2770077f1308e325d23f70c20b32"
+  url "https://github.com/portworx/homebrew-brew/releases/download/0.0.1/pxc-pds-v0.0.3-7-ge5aa647.tar.gz"
+  sha256 "765632e29d9b07bc137245d32c33cf7cbc348a2d55b0da34e22b9fce842352e2"
   license "Apache-2.0"
   head "https://github.com/portworx/pxc-pds.git"
 
