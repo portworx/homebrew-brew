@@ -8,6 +8,8 @@ class PxcUseradd < Formula
 
   depends_on "portworx/brew/pxc"
 
+  disable! date: "2021-07-01", because: "removed brew installation support"
+
   def install
     bin.install "component/useradd/pxc-useradd"
   end

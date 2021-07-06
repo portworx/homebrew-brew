@@ -7,6 +7,7 @@ class PxcPxctl < Formula
   head "https://github.com/portworx/pxc.git"
 
   depends_on "portworx/brew/pxc"
+  disable! date: "2021-07-01", because: "removed brew installation support"
 
   def install
     bin.install "component/pxctl/pxc-pxctl"

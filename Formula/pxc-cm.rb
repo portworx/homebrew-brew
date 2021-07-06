@@ -7,6 +7,7 @@ class PxcCm < Formula
   head "https://github.com/portworx/pxc.git"
 
   depends_on "go" => :build
+  disable! date: "2021-07-01", because: "removed brew installation support"
 
   def install
     # Necessary to build a golang program. Not sure why this is not

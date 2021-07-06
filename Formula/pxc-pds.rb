@@ -8,6 +8,8 @@ class PxcPds < Formula
   depends_on "portworx/brew/pxc"
   depends_on "helm"
 
+  disable! date: "2021-07-01", because: "removed brew installation support. \n\nPlease download https://github.com/portworx/homebrew-brew/releases/download/0.0.1/pxc-pds-0.0.4.tar.gz"
+
   def install
     bin.install Dir["usr/local/bin/*"]
     pkgshare.install Dir["usr/local/share/pxc-pds/*"]
